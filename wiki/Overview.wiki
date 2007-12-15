@@ -17,3 +17,5 @@ This drupal module provides for a simple, elegent, and extendable API for creati
   * Labels
   * Legends
   * Line Styles
+
+http://img530.imageshack.us/img530/9210/chartingwj2.jpg

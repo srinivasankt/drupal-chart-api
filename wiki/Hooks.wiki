@@ -3,3 +3,15 @@
 
   * == chart_alter == 
     * Modify exsisting charts before they are created.
+    * Implementation example:
+    * {{{
+        function modulename_chart_alter($chart_id, $chart) {
+
+        }
+      }}}
+
+  * == chart_color_schemes == 
+    * Suppply custom color schemes.
+
+  * == chart_color_schemes_alter == 
+    * Modifiy exsisting color schemes.

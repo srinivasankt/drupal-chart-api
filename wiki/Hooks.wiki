@@ -14,7 +14,7 @@
 }}}
 
   * == chart_color_schemes == 
-    * Suppply custom color schemes.
+    * Supply custom color schemes.
 
   * == chart_color_schemes_alter == 
     * Modifiy exsisting color schemes.

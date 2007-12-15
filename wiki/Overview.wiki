@@ -23,6 +23,6 @@ http://code.google.com/apis/chart
 
 == Screen Shots ==
 
-View the screenshots page for more.
+View the Screenshots page for more.
 
 http://img530.imageshack.us/img530/9210/chartingwj2.jpg

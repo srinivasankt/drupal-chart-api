@@ -1,5 +1,5 @@
 #summary Drupal Chart API Overview.
-#labels chartapioverview
+#labels overview
 
 = Chart API Overview =
 
@@ -18,4 +18,5 @@ This drupal module provides for a simple, elegent, and extendable API for creati
   * Legends
   * Line Styles
 
+== Screen Shots ==
 http://img530.imageshack.us/img530/9210/chartingwj2.jpg

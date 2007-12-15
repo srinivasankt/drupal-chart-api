@@ -1,8 +1,6 @@
 #summary Drupal Chart API Overview.
 #labels overview
 
-= Chart API Overview =
-
 This drupal module provides for a simple, elegent, and extendable API for creating dynamic charts.
 
 == Features ==

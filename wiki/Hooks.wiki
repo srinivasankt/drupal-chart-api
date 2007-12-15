@@ -1,4 +1,4 @@
-#labels hooks
+#labels hooks,hook-chart-alter,hook-chart-color-schemes,hook-chart-color-schemes-alter
 #hooks allowing module developers to extend Chart API.
 
   * == chart_alter == 
@@ -8,7 +8,7 @@
         function modulename_chart_alter($chart_id, $chart) {
 
         }
-      }}}
+}}}
 
   * == chart_color_schemes == 
     * Suppply custom color schemes.

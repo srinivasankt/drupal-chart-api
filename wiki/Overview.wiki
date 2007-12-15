@@ -22,4 +22,7 @@ For further documentation on the creation of charts visit
 http://code.google.com/apis/chart
 
 == Screen Shots ==
+
+View the screenshots page for more.
+
 http://img530.imageshack.us/img530/9210/chartingwj2.jpg

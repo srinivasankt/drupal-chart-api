@@ -16,5 +16,10 @@ This drupal module provides for a simple, elegent, and extendable API for creati
   * Legends
   * Line Styles
 
+== Additional Documentation ==
+
+For further documentation on the creation of charts visit 
+http://code.google.com/apis/chart
+
 == Screen Shots ==
 http://img530.imageshack.us/img530/9210/chartingwj2.jpg

@@ -4,10 +4,12 @@
   * == chart_alter == 
     * Modify exsisting charts before they are created.
     * Implementation example:
-    * 
+    *
 {{{
- function modulename_chart_alter($chart_id, $chart) {
-
+ function modulename_chart_alter($chart_id, &$chart) {
+   if ($chart_id == 'node_counts'){
+     $chart['#size'] = chartapi_size(300, 200);  
+   }
  }
 }}}
 

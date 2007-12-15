@@ -1,5 +1,5 @@
 #labels hooks
 #hooks allowing module developers to extend Chart API.
 
-== chart_alter == 
-Modify exsisting charts before they are created.
+  * == chart_alter == 
+  * Modify exsisting charts before they are created.

@@ -1,14 +1,8 @@
 #labels screenshots
 #View screenshots of chart API in action!
 
-= Introduction =
+http://img530.imageshack.us/img530/9210/chartingwj2.jpg
 
-Add your content here.
+http://img340.imageshack.us/img340/7513/nodesky4.jpg
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+http://img337.imageshack.us/img337/9319/46521872qo0.jpg

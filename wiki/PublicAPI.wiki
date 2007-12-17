@@ -4,7 +4,7 @@
 == Hooks ==
 Visit [Hooks] to view hooks which are currently available to extend and modify exsisting chart functionality.
 
-== Functions ==
+== Chart Generation ==
 
   * chartapi_render($chart);
     * Returns image tag of the rendered chart, or FALSE on failure.

@@ -14,7 +14,4 @@
 }}}
 
   * == chart_color_schemes == 
-    * Supply custom color schemes.
-
-  * == chart_color_schemes_alter == 
-    * Modifiy exsisting color schemes.
+    * Extend and alter color schemes.

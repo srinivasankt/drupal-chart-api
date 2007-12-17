@@ -1,2 +1,5 @@
 #labels public-api
 #Public API functionality
+
+== Hooks ==
+Visit [hooks] to view hooks which are currently available to extend and modify exsisting chart functionality.

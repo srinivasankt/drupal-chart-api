@@ -6,28 +6,28 @@ Visit [Hooks] to view hooks which are currently available to extend and modify e
 
 == Chart Generation ==
 
-  * chartapi_render($chart);
+  * chart_render($chart);
     * Returns image tag of the rendered chart, or FALSE on failure.
-  * chartapi_copy($chart, $name = NULL, $dest = 'files', $replace = FILE_EXISTS_REPLACE)
+  * chart_copy($chart, $name = NULL, $dest = 'files', $replace = FILE_EXISTS_REPLACE)
     * Copies a chart as a local png image.
-  * chartapi_build($chart);
+  * chart_build($chart);
     * Generates a Google API query string which is used to request the chart image.
 
 == Utility Functions ==
 The following functions are available to help build and modify chart array structures.
 
-  * chartapi_title($title, $color = '000000', $size = 14);
-  * chartapi_legends($legends);
-  * chartapi_labels($labels);
-  * chartapi_mixed_axis_labels($axis, $labels);
-  * chartapi_size($width, $height);
-  * chartapi_data_colors($colors);
-  * chartapi_line_style($line_thickness = 1, $segment_length = 1, $blank_segment_length = 0); 
-  * chartapi_grid_lines($x_step, $y_step, $segment_length = 1, $blank_segment_length = 1);
-  * chartapi_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
-  * chartapi_range_marker($start, $end, $virtical = TRUE, $color = '000000');
-  * chartapi_solid_fill($type = 'c', $color = '000000');
-  * chartapi_linear_gradient($type = 'c', $color = '000000', $offset = 0);
-  * chartapi_linear_stripes($type = 'c', $color = '000000', $angle = 0, $width = 0.25);
-  * chartapi_unique_color($content_id, $scheme = 'default');
+  * chart_title($title, $color = '000000', $size = 14);
+  * chart_legends($legends);
+  * chart_labels($labels);
+  * chart_mixed_axis_labels($axis, $labels);
+  * chart_size($width, $height);
+  * chart_data_colors($colors);
+  * chart_line_style($line_thickness = 1, $segment_length = 1, $blank_segment_length = 0); 
+  * chart_grid_lines($x_step, $y_step, $segment_length = 1, $blank_segment_length = 1);
+  * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
+  * chart_range_marker($start, $end, $virtical = TRUE, $color = '000000');
+  * chart_solid_fill($type = 'c', $color = '000000');
+  * chart_linear_gradient($type = 'c', $color = '000000', $offset = 0);
+  * chart_linear_stripes($type = 'c', $color = '000000', $angle = 0, $width = 0.25);
+  * chart_unique_color($content_id, $scheme = 'default');
     * Creates and returns a unique color per $content_id. Making it easy to distingish between dynamic data sets where you may not manually enter colors 

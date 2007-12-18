@@ -24,5 +24,14 @@ function system_charts_chart_color_schemes(&$colors) {
       'FF0000',
     );   
 }
+
+function system_charts_chart_color_schemes(&$colors) {
+  $colors['watchdog_severity'] = array(
+      'Notice'  => '0000FF',
+      'Warning' => 'FFFF00',
+      'Error'   => 'FF0000',
+    );   
+}
 }}}
+    * Assoc arrays can be used to pre-map colors to a specific $content_id
     * NOTE: do not use the pound sign (#) for hex color values.

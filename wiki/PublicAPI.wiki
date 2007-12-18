@@ -36,6 +36,6 @@ The following functions are available to help build and modify chart array struc
 == Chart API Structure ==
 The following describes parameters which can be entered manually or used along with the helper functions above to create what is the Chart API array structure.
 
-=== Required ===
+==== Required ====
 
-=== Optional ===
+==== Optional ====

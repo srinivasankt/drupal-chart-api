@@ -6,7 +6,7 @@ Visit [Hooks] to view hooks which are currently available to extend and modify e
 
 == Chart Generation ==
 
-  * chart_render($chart);
+  * chart_render($chart, $attributes = array());
     * Returns image tag of the rendered chart, or FALSE on failure.
   * chart_copy($chart, $name = NULL, $dest = 'files', $replace = FILE_EXISTS_REPLACE)
     * Copies a chart as a local png image.

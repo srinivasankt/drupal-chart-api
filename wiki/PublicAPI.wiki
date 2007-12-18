@@ -1,4 +1,4 @@
-#labels public-api
+#labels public-api,chart-api-array-structure,helper-functions
 #Public API functionality
 
 == Hooks ==
@@ -32,3 +32,10 @@ The following functions are available to help build and modify chart array struc
   * chart_unique_color($content_id, $scheme = 'default');
     * Creates and returns a unique color per $content_id. Making it easy to distingish between dynamic data sets where you may not manually enter colors.
     * When color is associated to the $content_id passed, for example array('Error' => 'ff0000') then that color will be choosen. 
+
+== Chart API Structure ==
+The following describes parameters which can be entered manually or used along with the helper functions above to create what is the Chart API array structure.
+
+=== Required ===
+
+=== Optional ===

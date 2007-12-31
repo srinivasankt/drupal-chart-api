@@ -25,7 +25,7 @@ The following functions are available to help build and modify chart array struc
   * chart_data_colors($colors);
   * chart_line_style($line_thickness = 1, $segment_length = 1, $blank_segment_length = 0); 
   * chart_grid_lines($x_step, $y_step, $segment_length = 1, $blank_segment_length = 1);
-  * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
+   * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
   * chart_range_marker($start, $end, $virtical = TRUE, $color = '000000');
   * chart_fill($type = 'c', $color = '000000');
   * chart_linear_gradient($type = 'c', $color = '000000', $offset = 0);
@@ -38,5 +38,45 @@ The following functions are available to help build and modify chart array struc
 The following describes parameters which can be entered manually or used along with the helper functions above to create what is the Chart API array structure.
 
 ==== Required ====
+  * #chart_id
+    * unique id representing the chart.
+  * #type
+    * chart type. see chart type constants below. 
+  * #data
+    * array of nested arrays or numeric values. Empty values are represented with the string 'NULL'.
+  * #encoding
+    * see chart encoding constants below.
 
 ==== Optional ====
+  * #title 
+    * chart title and style. see chart_title(); 
+  * #size  
+    * chart dimensions. see chart_size();
+  * #legends  
+    * array of legends describing each dataset.        
+  * #labels  
+    * array of labels describing dataset series.
+  * #adjust_resolution  
+    * when TRUE data is adjusted to the resolution of the encoding type choosen which ensures that data is represented using the full range of values available.
+    * when an array is passed rather than a bool, #adjust represents that the data should be adjusted, and #max indicates what value should be considered the maximum value to which all other values will resolve to. 
+    * TODO: display example images here of adjusted / non-adjusted datasets.
+  * #line_styles          
+    * array of line styles which parallel datasets being displayed. see chart_line_style();
+  * #grid_lines   
+    * see chart_grid_lines();       
+  * #shape_markers  
+    * array of shape markers. see chart_shape_marker();        
+  * #data_colors 
+    * array of hex color values which parallel datasets. 
+    * use of chart_unique_color() is recommended.
+    * NOTE: values must exclude #      
+  * #chart_fill 
+    * chart fill color and styling. see chart_fill()
+  * #mixed_axis_labels 
+    * array of mixed axis labels. see chart_mixed_axis_range_label() and chart_mixed_axis_label()
+  * #mixed_axis_label_styles
+    * see chart_mixed_axis_label_styles()
+  * #bar_size 
+    * see chart_bar_size()
+
+== Constants ==

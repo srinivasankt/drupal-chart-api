@@ -25,7 +25,7 @@ The following functions are available to help build and modify chart array struc
   * chart_data_colors($colors);
   * chart_line_style($line_thickness = 1, $segment_length = 1, $blank_segment_length = 0); 
   * chart_grid_lines($x_step, $y_step, $segment_length = 1, $blank_segment_length = 1);
-  *    * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
+  * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
   * chart_range_marker($start, $end, $virtical = TRUE, $color = '000000');
   * chart_fill($type = 'c', $color = '000000');
   * chart_linear_gradient($type = 'c', $color = '000000', $offset = 0);

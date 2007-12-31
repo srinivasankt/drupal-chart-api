@@ -32,7 +32,7 @@ The following functions are available to help build and modify chart array struc
   * chart_linear_stripes($type = 'c', $color = '000000', $angle = 0, $width = 0.25);
   * chart_unique_color($content_id, $scheme = 'default');
     * Creates and returns a unique color per $content_id. Making it easy to distingish between dynamic data sets where you may not manually enter colors.
-    * When color is associated to the $content_id passed, for example array('Error' => 'ff0000') then that color will be choosen. 
+    * When color is associated to the $content_id passed, for example array('Error' => 'ff0000') then that color will be assigned. 
 
 == Chart API Structure ==
 The following describes parameters which can be entered manually or used along with the helper functions above to create what is the Chart API array structure.

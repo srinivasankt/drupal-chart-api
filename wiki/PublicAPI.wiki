@@ -1,4 +1,4 @@
-#labels public-api,chart-api-array-structure,helper-functions
+#labels public-api,chart-api-array-structure,helper-functions,constants
 #Public API functionality
 
 == Hooks ==
@@ -25,7 +25,7 @@ The following functions are available to help build and modify chart array struc
   * chart_data_colors($colors);
   * chart_line_style($line_thickness = 1, $segment_length = 1, $blank_segment_length = 0); 
   * chart_grid_lines($x_step, $y_step, $segment_length = 1, $blank_segment_length = 1);
-   * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
+  *    * chart_shape_marker($index = 0, $point = 1, $type = 'o', $size = 20, $color = '000000');
   * chart_range_marker($start, $end, $virtical = TRUE, $color = '000000');
   * chart_fill($type = 'c', $color = '000000');
   * chart_linear_gradient($type = 'c', $color = '000000', $offset = 0);
@@ -82,40 +82,40 @@ The following describes parameters which can be entered manually or used along w
 == Constants ==
 
 ==== Chart Types ====
-CHART_TYPE_LINE
-CHART_TYPE_LINE_XY
-CHART_TYPE_BAR_H
-CHART_TYPE_BAR_V
-CHART_TYPE_BAR_H_GROUPED
-CHART_TYPE_BAR_V_GROUPED
-CHART_TYPE_PIE
-CHART_TYPE_PIE_3D
-CHART_TYPE_VENN
-CHART_TYPE_SCATTER
+  * CHART_TYPE_LINE
+  * CHART_TYPE_LINE_XY
+  * CHART_TYPE_BAR_H
+  * CHART_TYPE_BAR_V
+  * CHART_TYPE_BAR_H_GROUPED
+  * CHART_TYPE_BAR_V_GROUPED
+  * CHART_TYPE_PIE
+  * CHART_TYPE_PIE_3D
+  * CHART_TYPE_VENN
+  * CHART_TYPE_SCATTER
 
 ==== Data Encoding Formats ====
-CHART_ENCODING_SIMPLE
-CHART_ENCODING_TEXT
-CHART_ENCODING_EXTENDED
+  * CHART_ENCODING_SIMPLE
+  * CHART_ENCODING_TEXT
+  * CHART_ENCODING_EXTENDED
 
 ==== Marker Types ====
-CHART_MARKER_ARROW
-CHART_MARKER_CROSS
-CHART_MARKER_DIAMOND
-CHART_MARKER_CIRCLE
-CHART_MARKER_SQUARE
-CHART_MARKER_VIRTICAL_LINE_X
-CHART_MARKER_VIRTICAL_LINE_TOP
-CHART_MARKER_HORIZONTAL_LINE
-CHART_MARKER_X
+  * CHART_MARKER_ARROW
+  * CHART_MARKER_CROSS
+  * CHART_MARKER_DIAMOND
+  * CHART_MARKER_CIRCLE
+  * CHART_MARKER_SQUARE
+  * CHART_MARKER_VIRTICAL_LINE_X
+  * CHART_MARKER_VIRTICAL_LINE_TOP
+  * CHART_MARKER_HORIZONTAL_LINE
+  * CHART_MARKER_X
 
 ==== Axis ====
-CHART_AXIS_X_BOTTO
-CHART_AXIS_X_TOP
-CHART_AXIS_Y_LEFT
-CHART_AXIS_Y_RIGHT
+  * CHART_AXIS_X_BOTTO
+  * CHART_AXIS_X_TOP
+  * CHART_AXIS_Y_LEFT
+  * CHART_AXIS_Y_RIGHT
 
 ==== Alignment ====
-CHART_ALIGN_LEFT
-CHART_ALIGN_CENTER
-CHART_ALIGN_RIGHT
+  * CHART_ALIGN_LEFT
+  * CHART_ALIGN_CENTER
+  * CHART_ALIGN_RIGHT

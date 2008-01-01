@@ -6,15 +6,14 @@ This drupal module provides for a simple, elegent, and extendable API for creati
 == Features ==
 
   * More than 10 chart types
-  * Chart Rendering
+  * Memory Free Chart Rendering
   * Saving of charts to local file system
   * Hooks to alter and modify exsisting charts
   * Color schemes which "stick" with the context of your content
   * Custom color schemes
-  * Shape Markers
-  * Labels
-  * Legends
-  * Line Styles
+  * Styles
+  * Global style overrides
+  * and more.
 
 == Why Use Google Charts? ==
 

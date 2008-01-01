@@ -20,9 +20,9 @@ This drupal module provides for a simple, elegent, and extendable API for creati
 
 There are many reasons to choose Google Charts API over other methods such as Flash or Flex charts. 
 
-  * Lightweight and easy to implement
-  * Simple to extend within the Drupal framework
-  * Low resource usage thanks to Google taking the hit and generating the images :)
+  * Lightweight, reliable, no need for server side libraries
+  * Simple to extend and implement within the Drupal framework
+  * Memory friendly. Thanks Google for taking the hit :)
 
 == Additional Documentation ==
 

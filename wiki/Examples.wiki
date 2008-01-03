@@ -114,3 +114,25 @@ http://chart.apis.google.com/chart?chd=t%3A20%2C60%2C100%2C80%2C40%7C40%2C40%2C8
 
   echo chart_render($chart);
 }}}
+
+== Grid lines and chart fill ==
+
+http://chart.apis.google.com/chart?chd=t%3A-1%2C2%2C4%2C5%2C5%2C10%2C9%2C9%2C12%2C12%2C20%2C20%2C17%2C16%2C17%2C18%2C30%2C27%2C36%2C26%2C22%2C37%2C28%2C35%2C24%2C47%2C47%2C35%2C56%2C37%2C46%2C61%2C58%2C33%2C38%2C44%2C66%2C56%2C64%2C53%2C76%2C73%2C74%2C43%2C60%2C56%2C67%2C67%2C52%2C95%2C69%2C68%2C72%2C66%2C89%2C107%2C62%2C67%2C105%2C116%2C96%2C74%2C123%2C102%2C110%2C85%2C115%2C110%2C122%2C134%2C84%2C87%2C120%2C77%2C145%2C84%2C128%2C88%2C84%2C121&cht=lc&chs=400x200&chtt=Servings&chts=cc0000%2C15&chg=20%2C20%2C1%2C5&chf=c%2Cs%2Ceeeeee.png
+
+{{{
+  $chart = array(
+      '#chart_id' => 'test_chart',
+      '#title' => chart_title(t('Servings'), 'cc0000', 15),
+      '#type' => CHART_TYPE_LINE,
+      '#size' => chart_size(400, 200),
+      '#encoding' => CHART_ENCODING_TEXT,
+      '#chart_fill' => chart_fill('c', 'eeeeee'),          
+      '#grid_lines' => chart_grid_lines(20, 20, 1, 5),          
+    );
+    
+  for ($i = 0; $i < 80; $i++){
+    $chart['#data'][] = $i + rand(0, $i);
+  }
+
+  echo chart_render($chart);
+}}}

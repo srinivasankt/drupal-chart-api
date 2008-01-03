@@ -17,8 +17,6 @@ Visit [Hooks] to view hooks which are currently available to extend and modify e
 The following functions are available to help build and modify chart array structures.
 
   * chart_title($title, $color = '000000', $size = 14);
-  * chart_legends($legends);
-  * chart_labels($labels);
   * chart_mixed_axis_labels($axis, $labels);
   * chart_size($width, $height);
   * chart_bar_size($size = 40, $spacing = 20);

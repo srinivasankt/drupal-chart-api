@@ -1,7 +1,7 @@
 #labels examples
 #Charting examples
 
-== Simple pie chart==
+== Simple chart==
 http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Servings&chf=bg%2Cs%2CFFFFFF.png
 
 {{{
@@ -19,7 +19,7 @@ http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Ser
   echo chart_render($chart);
 }}}
 
-== Pie chart with labels and title styling ==
+== Labels, title styling, and chart size ==
 http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Servings&chts=cc0000%2C15&chl=Fruits%7CMeats%7CDairy&chf=bg%2Cs%2CFFFFFF.png
 
 {{{

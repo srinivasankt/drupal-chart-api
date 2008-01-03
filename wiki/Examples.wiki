@@ -1,2 +1,21 @@
 #labels examples
 #Charting examples
+
+== Simple chart ==
+The code below produces:
+http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Servings&chf=bg%2Cs%2CFFFFFF.png
+
+{{{
+  $chart = array(
+      '#chart_id' => 'test_chart',
+      '#title' => t('Servings'),
+      '#type' => CHART_TYPE_PIE_3D,
+      '#encoding' => CHART_ENCODING_TEXT,
+    );
+    
+  $chart['#data']['fruits'] = 3;
+  $chart['#data']['meats']  = 2;
+  $chart['#data']['dairy']  = 5;
+
+  $output .= chart_render($chart);
+}}}

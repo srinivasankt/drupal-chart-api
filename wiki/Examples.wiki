@@ -3,6 +3,7 @@
 
 == Simple chart ==
 The code below produces:
+
 http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Servings&chf=bg%2Cs%2CFFFFFF.png
 
 {{{

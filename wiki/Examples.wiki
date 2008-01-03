@@ -41,3 +41,32 @@ http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Serv
 
   echo chart_render($chart);
 }}}
+
+== Custom data colors ==
+Alternatively use the the [http://code.google.com/p/drupal-chart-api/wiki/Hooks Color Schemes Hook]
+
+http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Servings&chts=cc0000%2C15&chl=Fruits%7CMeats%7CDairy&chco=00ff00%2Cff0000%2C0000ff&chf=bg%2Cs%2CFFFFFF.png
+
+{{{
+  $chart = array(
+      '#chart_id' => 'test_chart',
+      '#title' => chart_title(t('Servings'), 'cc0000', 15),
+      '#type' => CHART_TYPE_PIE,
+      '#size' => chart_size(400, 200),
+      '#encoding' => CHART_ENCODING_TEXT,
+    );
+    
+  $chart['#data']['fruits'] = 3;
+  $chart['#data']['meats']  = 2;
+  $chart['#data']['dairy']  = 5;
+
+  $chart['#labels'][] = t('Fruits');
+  $chart['#labels'][] = t('Meats');
+  $chart['#labels'][] = t('Dairy');
+  
+  $chart['#data_colors'][] = '00ff00';
+  $chart['#data_colors'][] = 'ff0000';
+  $chart['#data_colors'][] = '0000ff';
+
+  echo chart_render($chart);
+}}}

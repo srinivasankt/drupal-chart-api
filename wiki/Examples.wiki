@@ -1,9 +1,7 @@
 #labels examples
 #Charting examples
 
-== Simple chart ==
-The code below produces:
-
+== Simple pie chart==
 http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Servings&chf=bg%2Cs%2CFFFFFF.png
 
 {{{
@@ -18,5 +16,28 @@ http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Ser
   $chart['#data']['meats']  = 2;
   $chart['#data']['dairy']  = 5;
 
-  $output .= chart_render($chart);
+  echo chart_render($chart);
+}}}
+
+== Pie chart with labels and title styling ==
+http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Servings&chts=cc0000%2C15&chl=Fruits%7CMeats%7CDairy&chf=bg%2Cs%2CFFFFFF.png
+
+{{{
+  $chart = array(
+      '#chart_id' => 'test_chart',
+      '#title' => chart_title(t('Servings'), 'cc0000', 15),
+      '#type' => CHART_TYPE_PIE,
+      '#size' => chart_size(400, 200),
+      '#encoding' => CHART_ENCODING_TEXT,
+    );
+    
+  $chart['#data']['fruits'] = 3;
+  $chart['#data']['meats']  = 2;
+  $chart['#data']['dairy']  = 5;
+
+  $chart['#labels'][] = t('Fruits');
+  $chart['#labels'][] = t('Meats');
+  $chart['#labels'][] = t('Dairy');
+
+  echo chart_render($chart);
 }}}

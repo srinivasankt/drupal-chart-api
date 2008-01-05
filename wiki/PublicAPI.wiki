@@ -101,7 +101,7 @@ The following describes parameters which can be entered manually or used along w
   * CHART_MARKER_X
 
 ==== Axis ====
-  * CHART_AXIS_X_BOTTO
+  * CHART_AXIS_X_BOTTOM
   * CHART_AXIS_X_TOP
   * CHART_AXIS_Y_LEFT
   * CHART_AXIS_Y_RIGHT

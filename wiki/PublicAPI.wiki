@@ -42,8 +42,6 @@ The following describes parameters which can be entered manually or used along w
     * chart type. see chart type constants below. 
   * #data
     * array of nested arrays or numeric values. Empty values are represented with the string 'NULL'.
-  * #encoding
-    * see chart encoding constants below.
 
 ==== Optional ====
   * #title 
@@ -90,11 +88,6 @@ The following describes parameters which can be entered manually or used along w
   * CHART_TYPE_PIE_3D
   * CHART_TYPE_VENN
   * CHART_TYPE_SCATTER
-
-==== Data Encoding Formats ====
-  * CHART_ENCODING_SIMPLE
-  * CHART_ENCODING_TEXT
-  * CHART_ENCODING_EXTENDED
 
 ==== Marker Types ====
   * CHART_MARKER_ARROW

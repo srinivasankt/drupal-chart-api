@@ -9,7 +9,6 @@ http://chart.apis.google.com/chart?chd=t%3A5%2C4%2C6&cht=p3&chs=300x150&chtt=Ser
       '#chart_id' => 'test_chart',
       '#title' => t('Servings'),
       '#type' => CHART_TYPE_PIE_3D,
-      '#encoding' => CHART_ENCODING_TEXT,
     );
     
   $chart['#data']['fruits'] = 3;
@@ -30,7 +29,6 @@ http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Serv
       '#title' => chart_title(t('Servings'), 'cc0000', 15),
       '#type' => CHART_TYPE_PIE,
       '#size' => chart_size(400, 200),
-      '#encoding' => CHART_ENCODING_TEXT,
     );
     
   $chart['#data']['fruits'] = 3;
@@ -57,7 +55,6 @@ http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Serv
       '#title' => chart_title(t('Servings'), 'cc0000', 15),
       '#type' => CHART_TYPE_PIE,
       '#size' => chart_size(400, 200),
-      '#encoding' => CHART_ENCODING_TEXT,
     );
     
   $chart['#data']['fruits'] = 3;
@@ -88,7 +85,6 @@ http://chart.apis.google.com/chart?chd=t%3A20%2C60%2C100%2C80%2C40%7C40%2C40%2C8
       '#title' => chart_title(t('Servings'), 'cc0000', 15),
       '#type' => CHART_TYPE_LINE,
       '#size' => chart_size(400, 200),
-      '#encoding' => CHART_ENCODING_TEXT,
       '#adjust_resolution' => TRUE,
     );
     
@@ -125,7 +121,6 @@ http://chart.apis.google.com/chart?chd=t%3A-1%2C2%2C4%2C5%2C5%2C10%2C9%2C9%2C12%
       '#title' => chart_title(t('Servings'), 'cc0000', 15),
       '#type' => CHART_TYPE_LINE,
       '#size' => chart_size(400, 200),
-      '#encoding' => CHART_ENCODING_TEXT,
       '#chart_fill' => chart_fill('c', 'eeeeee'),          
       '#grid_lines' => chart_grid_lines(20, 20, 1, 5),          
     );
@@ -148,7 +143,6 @@ http://chart.apis.google.com/chart?chd=t%3A40%2C50%2C70%7C60%2C50%2C30%7C40%2C60
       '#title' => chart_title(t('Bar Chart'), '0000ee', 15),
       '#type' => CHART_TYPE_BAR_V_GROUPED,
       '#size' => chart_size(400, 200),
-      '#encoding' => CHART_ENCODING_TEXT,
       '#grid_lines' => chart_grid_lines(30, 15),
       '#bar_size' => chart_bar_size(15, 5), 
     );

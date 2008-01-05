@@ -53,7 +53,7 @@ The following describes parameters which can be entered manually or used along w
   * #labels  
     * array of labels describing dataset series.
   * #adjust_resolution  
-    * when TRUE data is adjusted to the resolution of the encoding type choosen which ensures that data is represented using the full range of values available.
+    * when TRUE data is adjusted to the resolution of the encoding type which ensures that data is represented using the full range of values available.
     * when an array is passed rather than a bool, #adjust represents that the data should be adjusted, and #max indicates what value should be considered the maximum value to which all other values will resolve to. 
     * TODO: display example images here of adjusted / non-adjusted datasets.
   * #line_styles          

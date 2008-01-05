@@ -53,9 +53,9 @@ The following describes parameters which can be entered manually or used along w
   * #labels  
     * array of labels describing dataset series.
   * #adjust_resolution  
-    * when TRUE data is adjusted to the resolution of the encoding type which ensures that data is represented using the full range of values available.
+    * when TRUE data is adjusted to the resolution available which ensures that data is represented using the full range of values available.
     * when an array is passed rather than a bool, #adjust represents that the data should be adjusted, and #max indicates what value should be considered the maximum value to which all other values will resolve to. 
-    * TODO: display example images here of adjusted / non-adjusted datasets.
+    * Example: values of [5, 8, 12] will not be represented well when the chart has a range of 100 values, 12 will be represented at 100 (unless a max is specified) and other values are adjust appropriately. 
   * #line_styles          
     * array of line styles which parallel datasets being displayed. see chart_line_style();
   * #grid_lines   

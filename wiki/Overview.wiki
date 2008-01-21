@@ -13,6 +13,7 @@ This drupal module provides for a simple, elegent, and extendable API for creati
   * Custom color schemes
   * Styles
   * Global style overrides
+  * Global width & height overrides
   * and more.
 
 == Why Use Google Charts? ==

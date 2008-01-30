@@ -75,6 +75,7 @@ http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Serv
 == Line chart, legends, and resolution adjusting ==
 
 As you can see in the chart below, the resolution of the encoding type chosen does not reflect well with the data provided. So in the chart below it, we set "'#adjust_resolution' => TRUE,".
+
 http://chart.apis.google.com/chart?chd=t%3A1%2C3%2C5%2C4%2C2%7C2%2C2%2C4%2C3%2C1%7C5%2C2%2C3%2C1%2C2&cht=lc&chs=400x200&chtt=Servings&chts=cc0000%2C15&chdl=Fruits%7CMeats%7CDairy&chco=00ff00%2Cff0000%2C0000ff&chf=bg%2Cs%2CFFFFFF&chxt=y%2Cx&chxr=0%2C0%2C5&chxl=1%3A%7CMon%7CTue%7CWed%7CThu%7CFri.png
 
 http://chart.apis.google.com/chart?chd=t%3A20%2C60%2C100%2C80%2C40%7C40%2C40%2C80%2C60%2C20%7C100%2C40%2C60%2C20%2C40&cht=lc&chs=400x200&chtt=Servings&chts=cc0000%2C15&chdl=Fruits%7CMeats%7CDairy&chco=00ff00%2Cff0000%2C0000ff&chf=bg%2Cs%2CFFFFFF&chxt=y%2Cx&chxr=0%2C0%2C5&chxl=1%3A%7CMon%7CTue%7CWed%7CThu%7CFri.png

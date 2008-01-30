@@ -72,7 +72,7 @@ http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Serv
   echo chart_render($chart);
 }}}
 
-== Line chart, legends, and resolution adjusting ==
+== Line chart, legends, and resolution adjustments ==
 
 As you can see in the chart below, the resolution of the encoding type chosen does not reflect well with the data provided. So in the chart below it, we set "'#adjust_resolution' => TRUE,".
 

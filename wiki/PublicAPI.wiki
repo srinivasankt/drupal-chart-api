@@ -17,7 +17,6 @@ Visit [Hooks] to view hooks which are currently available to extend and modify e
 The following functions are available to help build and modify chart array structures.
 
   * chart_title($title, $color = '000000', $size = 14);
-  * chart_mixed_axis_labels($axis, $labels);
   * chart_size($width, $height);
   * chart_bar_size($size = 40, $spacing = 20);
   * chart_data_colors($colors);
@@ -31,6 +30,9 @@ The following functions are available to help build and modify chart array struc
   * chart_unique_color($content_id, $scheme = 'default');
     * Creates and returns a unique color per $content_id. Making it easy to distingish between dynamic data sets where you may not manually enter colors.
     * When color is associated to the $content_id passed, for example array('Error' => 'ff0000') then that color will be assigned. 
+  * chart_mixed_axis_label($label);
+  * chart_mixed_axis_range_label($start, $end);
+  * chart_mixed_axis_style($index, $color, $font_size = 12, $alignment = CHART_ALIGN_CENTER);
 
 == Chart API Structure ==
 The following describes parameters which can be entered manually or used along with the helper functions above to create what is the Chart API array structure.

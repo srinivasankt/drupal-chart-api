@@ -133,8 +133,8 @@ http://chart.apis.google.com/chart?chd=t%3A-1%2C2%2C4%2C5%2C5%2C10%2C9%2C9%2C12%
   echo chart_render($chart);
 }}}
 
-== Bar sizing ==
-Spacing and sizing of bars can be adjusted using the #bar_size attribute.
+== Bar sizing & color mapping ==
+Spacing and sizing of bars can be adjusted using the #bar_size attribute. Colors are mapped to content id's with chart_unique_color(id), no matter how many charts on the page use test_a, test_b, or test_c, they will always have the same corrosponding color.
 
 http://chart.apis.google.com/chart?chd=t%3A40%2C50%2C70%7C60%2C50%2C30%7C40%2C60%2C20&cht=bvg&chs=400x200&chtt=Bar+Chart&chts=0000ee%2C15&chg=30%2C15%2C1%2C3&chco=FFE500%2CFFF9BF%2C78c0e9&chf=bg%2Cs%2CFFFFFF&chbh=15%2C5.png
 

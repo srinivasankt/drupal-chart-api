@@ -30,7 +30,7 @@ The following functions are available to help build and modify chart array struc
   * chart_unique_color($content_id, $scheme = 'default');
     * Creates and returns a unique color per $content_id. Making it easy to distingish between dynamic data sets where you may not manually enter colors.
     * When color is associated to the $content_id passed, for example array('Error' => 'ff0000') then that color will be assigned. 
-  * chart_mixed_axis_label($label);
+  * chart_mixed_axis_label($label, $position = NULL);
   * chart_mixed_axis_range_label($start, $end);
   * chart_mixed_axis_style($index, $color, $font_size = 12, $alignment = CHART_ALIGN_CENTER);
 

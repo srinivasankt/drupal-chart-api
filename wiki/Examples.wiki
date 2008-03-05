@@ -45,7 +45,7 @@ http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Serv
 
 
 == Custom data colors ==
-Alternatively use the the [http://code.google.com/p/drupal-chart-api/wiki/Hooks Color Schemes Hook] which can be then associated to multiple charts containing some or all of the same content.
+Alternatively use the the [http://code.google.com/p/drupal-chart-api/wiki/Hooks Color Schemes Hook] which can be then associated to multiple charts containing some or all of the same content. You may want to consider chart_unique_color(); 
 
 http://chart.apis.google.com/chart?chd=t%3A3%2C2%2C5&cht=p&chs=400x200&chtt=Servings&chts=cc0000%2C15&chl=Fruits%7CMeats%7CDairy&chco=00ff00%2Cff0000%2C0000ff&chf=bg%2Cs%2CFFFFFF.png
 
